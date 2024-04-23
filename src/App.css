@@ -1,0 +1,13 @@
+.main-container{
+   /* background: url("https://cdn.pixabay.com/photo/2020/01/27/11/17/education-4796952_640.jpg");  */
+   background: url("https://t4.ftcdn.net/jpg/02/70/46/43/360_F_270464397_cvBt3h6cgQJMPVhaVjDot1Dovn8rLryo.jpg"); 
+  background-position: center;
+  background-size: cover;
+}
+.form-container{
+  padding: 70px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.9);
+}
+.heading{
+  padding: 10px 110px;
+}
