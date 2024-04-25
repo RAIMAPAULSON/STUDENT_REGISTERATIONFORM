@@ -104,7 +104,7 @@ function App() {
     e.preventDefault();
     if (!fullName || !address || !mobile || !email || !selectedDate || !gender || !course) {
       alert("please fill the form completely");
-      setModalOpen(false);
+      return;
 
     }
     const formDataObject = {
