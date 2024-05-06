@@ -1,14 +1,19 @@
 .main-container {
   /* background: url("https://cdn.pixabay.com/photo/2020/01/27/11/17/education-4796952_640.jpg");  */
-  background: url("https://t4.ftcdn.net/jpg/02/70/46/43/360_F_270464397_cvBt3h6cgQJMPVhaVjDot1Dovn8rLryo.jpg");
+   background: url("https://t4.ftcdn.net/jpg/02/70/46/43/360_F_270464397_cvBt3h6cgQJMPVhaVjDot1Dovn8rLryo.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .form-container {
-  padding: 40px 70px;
+  /* padding: 40px 70px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
   background-color: #F0F8FF;
+  height: 620px; */
+  padding: 40px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.9);
+  background-color: #F0F8FF;
+  margin: 0 auto; 
 }
 
 .heading {
@@ -26,16 +31,34 @@
 .logo-text {
   color: rgb(13, 13, 84);
 }
-
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:776px) {
   .main-container {
     height: 100%;
-    background: none;
-    background-color: white;
   }
 
   .form-container {
-    border: none;
-    box-shadow: none;
+    padding: 10px;
+    width: auto; 
+    height: auto;
   }
-}
+  .content-container{
+    align-items: center;
+  }
+
+} 
+
+ @media only screen and (max-width:658px) {
+  .main-container {
+    height: 100%;
+  }
+
+  .form-container {
+    min-height: 100vh;
+  }
+  .content-container{
+    padding-left: 100px;
+  }
+  .heading{
+    padding: 5px 90px;
+  }
+}  

@@ -139,7 +139,7 @@ function App() {
 
   return (
     <div style={{ minHeight: '100vh', width: '100%' }} className='main-container d-flex align-items-center justify-content-center'>
-      <div className='form-container border rounded' style={{ height: '620px' }}>
+      <div className='form-container border rounded'>
         <div className='d-flex justify-content-between'>
           <div>
             <img src={SchoolLogo} height={'60px'} alt="" className='mb-2' />
@@ -150,7 +150,7 @@ function App() {
         <hr />
         <form>
           <div className="content-container row">
-            <div className="firstcol col-6 col-md-12" style={{ width: '330px' }}>
+            <div className="firstcol col-lg-6 col-md-12" style={{ width: '330px' }}>
               <div className='mt-2'>
                 <TextField id="outlined-basic" name="fullName" value={fullName} onChange={(e) => handleInputValidationName(e.target)} label="Full Name" className='w-100' variant="outlined" />
               </div>
@@ -178,7 +178,7 @@ function App() {
                 )
               }
             </div>
-            <div className="secondcol col-6 col-md-12" style={{ width: '330px' }}>
+            <div className="secondcol col-lg-6 col-md-12" style={{ width: '330px' }}>
               <div >
                 <p className='fw-bolder'>Date of Birth</p>
                 <LocalizationProvider dateAdapter={AdapterDayjs} className='mt-0'>
